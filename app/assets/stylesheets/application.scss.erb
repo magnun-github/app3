@@ -14,6 +14,18 @@ body {
   padding-top: 6%;
 }
 
+// max-width = 768px
+@media (max-width: 768px) {
+  .nav-item-extend {
+    margin-top: 0.6rem;
+  }
+}
+
+// button
+.btn-extend {
+  width: 8.5rem;
+}
+
 // header
 
 .navbar-extend {
@@ -31,6 +43,23 @@ body {
   :hover {
     opacity: 0.6;
   }
+}
+
+.nav-item-extend {
+  > a:not(.btn-extend) {
+    // text-decoration: none;
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+  > a {
+    margin-left: 1rem;
+    float: right;
+  }
+}
+
+.nav-link {
+  color: $growth-dark-white;
 }
 
 // jumbotron
