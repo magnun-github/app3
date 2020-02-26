@@ -16,7 +16,7 @@ module App3
     config.generators.stylesheets         = false
     config.generators.javascripts         = false
     config.generators.helper              = false
-    config.generators.helper_specs        = false
+    # config.generators.helper_specs        = false
     config.generators.view_specs          = false
 
     # Settings in config/environments/* take precedence over those specified here.
