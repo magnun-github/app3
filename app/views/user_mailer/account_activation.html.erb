@@ -1,0 +1,4 @@
+<h1>Growth</h1>
+<p><%= @user.name %>さんへ</p>
+<p>Growthをご利用頂きありがとうございます。下記の『認証する』をクリックして認証を済ませてください。</p>
+<%= link_to "認証する", edit_account_activation_url(@user.activation_token, email: @user.email) %>
